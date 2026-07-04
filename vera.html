@@ -2,25 +2,15 @@
 <html lang="nl">
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="refresh" content="0; url=https://sisters-empty-micro-drawn.trycloudflare.com">
 <title>Vera</title>
 <style>
-body { background:#0b1020; color:#e8e8f5; font-family:'Segoe UI',Arial,sans-serif; display:flex; align-items:center; justify-content:center; height:100vh; margin:0; text-align:center; padding:0 20px; }
+body { background:#0b1020; color:#e8e8f5; font-family:'Segoe UI',Arial,sans-serif; display:flex; align-items:center; justify-content:center; height:100vh; margin:0; }
 a { color:#9b8afa; }
 </style>
+<script>window.location.replace("https://sisters-empty-micro-drawn.trycloudflare.com");</script>
 </head>
 <body>
-  <p id="msg">Vera zoeken...</p>
-  <script>
-    fetch('https://raw.githubusercontent.com/Frankher007/gamebende-redirect/main/vera-url.txt?t=' + Date.now())
-      .then(function (r) { if (!r.ok) throw new Error('kon de huidige link niet ophalen'); return r.text(); })
-      .then(function (url) {
-        url = url.trim();
-        document.getElementById('msg').innerHTML = 'Doorverwijzen naar Vera... Werkt het niet automatisch? <a href="' + url + '">Klik hier</a>.';
-        window.location.replace(url);
-      })
-      .catch(function (err) {
-        document.getElementById('msg').textContent = 'Kon Vera niet vinden: ' + err.message + ' -- probeer het zo nog eens.';
-      });
-  </script>
+  <p>Doorverwijzen naar Vera... Werkt het niet automatisch? <a href="https://sisters-empty-micro-drawn.trycloudflare.com">Klik hier</a>.</p>
 </body>
 </html>
